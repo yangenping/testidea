@@ -17,6 +17,7 @@ public class Servletw1 extends HttpServlet {
               //a
         //b
         //c
+        //b1
         response.getWriter().write("servlet1");
     }
 }
