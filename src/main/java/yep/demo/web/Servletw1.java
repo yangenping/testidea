@@ -1,3 +1,5 @@
+package yep.demo.web;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,7 +14,7 @@ public class Servletw1 extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+              //a
         response.getWriter().write("servlet1");
     }
 }
